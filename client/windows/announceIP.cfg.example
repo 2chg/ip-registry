@@ -1,0 +1,13 @@
+## URI to the IPdirectory registerIP.php-page
+SERVER=http://example.com/registerIP.php
+
+## Client-ID
+CLIENT=Test-Customer
+
+## Secret (password) for updating the Client-ID
+SECRET=wg6148
+
+## Command (including parameters) for contacting IPdirectory registerIP.php-page
+# WGET=wget –quiet --spider
+# WGET=curl –silent –output nul
+WGET=callurl.cmd
